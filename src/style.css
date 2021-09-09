@@ -1,0 +1,16 @@
+.scores {
+  width: 45%;
+}
+
+.add-score {
+  width: 45%;
+}
+
+table#scores-table tr:nth-child(odd) {
+  background-color: rgb(190, 190, 190);
+}
+
+footer {
+  bottom: 0;
+  width: 98%;
+}
