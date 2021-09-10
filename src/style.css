@@ -14,3 +14,13 @@ footer {
   bottom: 0;
   width: 98%;
 }
+
+.icon {
+  z-index: 1;
+  right: 31px;
+  top: 31px;
+}
+
+.submit {
+  width: 30%;
+}
