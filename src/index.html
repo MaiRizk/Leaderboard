@@ -11,33 +11,35 @@
   </head>
   <body class="m-3">
     <header>
-      <nav class="d-flex justify-content-between border border-dark p-2">
-        <span>Leaderboard</span>
+      <nav class="d-flex justify-content-between p-2">
+        <span class="nav-span">Leaderboard</span>
         <div class="search">
-          <i class="fas fa-search position-absolute icon"></i>
-        <input type="search" placeholder="Search" class="position-relative rounded border border-dark px-2">
+          <i class="fas fa-search position-absolute icon px-3"></i>
+        <input type="search" placeholder="Search" class="position-relative px-3 search">
       </div>
       </nav>
     </header>
-    <h1 class="my-5">Leaderboard</h1>
+    <p class="my-5 title">Leaderboard</p>
     <div class="container d-flex justify-content-between flex-wrap w-100">
       <section class="scores">
         <div class="scores-header d-flex justify-content-between">
-          <h4>Recent Scores</h4>
+          <h2>Recent Scores</h2>
           <button id="refresh" type="button">Refresh</button>
         </div>
-        <table class="table border border-dark my-2" id="scores-table">
+        <table class="table my-2" id="scores-table">
 
         </table>
       </section>
       <section class="add-score d-flex flex-column">
-        <h4>Add your score</h4>
-        <input type="name" class="my-2" placeholder="Your name">
-        <input type="number" class="my-2" placeholder="Your score">
+        <h2>Add your score</h2>
+        <input type="name" class="my-2 add-input" placeholder="Your name">
+        <input type="number" class="my-2 add-input" placeholder="Your score">
         <button type="submit" id="submit" class="submit my-2 align-self-end">Submit</button>
       </section>
 
     </div>
-    <footer class="position-fixed border border-dark p-2">Made with love..</footer>
+    <footer class="position-fixed p-2">
+      <span>Made with love..</span>
+      </footer>
   </body>
 </html>

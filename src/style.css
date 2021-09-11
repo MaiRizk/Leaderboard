@@ -6,21 +6,71 @@
   width: 45%;
 }
 
-table#scores-table tr:nth-child(odd) {
+table#scores-table tr:nth-child(even) {
   background-color: rgb(190, 190, 190);
 }
 
 footer {
   bottom: 0;
   width: 98%;
+  border: 3px solid #495057;
+}
+
+footer span {
+  font-size: 18px;
 }
 
 .icon {
   z-index: 1;
   right: 31px;
-  top: 31px;
+  top: 33px;
 }
 
 .submit {
   width: 30%;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+nav {
+  border: 3px solid #495057;
+}
+
+.nav-span {
+  font-size: 18px;
+}
+
+.search {
+  border-radius: 17px;
+}
+
+#refresh {
+  height: 40px;
+  padding: 0 20px;
+  border: 2px solid black;
+  box-shadow: 2px 2px;
+}
+
+#scores-table {
+  border: 3px solid #495057;
+}
+
+td {
+  font-size: 20px;
+}
+
+#submit {
+  height: 40px;
+  padding: 0 20px;
+  border: 2px solid black;
+  box-shadow: 2px 2px;
+}
+
+.add-input {
+  border: 2px solid #495057;
+  padding-left: 10px;
+  height: 40px;
 }
