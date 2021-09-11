@@ -1,95 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&display=swap');
-
-body {
-  margin-top: 7%;
-  font-family: 'Roboto Mono', monospace;
-  background-color: black;
+.scores {
+  width: 45%;
 }
 
-ul {
-  list-style-type: none;
-  padding-left: 0%;
+.add-score {
+  width: 45%;
 }
 
-li:nth-child(odd) {
-  background-color: rgb(255, 136, 0);
+table#scores-table tr:nth-child(odd) {
+  background-color: rgb(190, 190, 190);
 }
 
-#main-container,
-#recent-scores-top {
-  display: flex;
-  justify-content: space-around;
+footer {
+  bottom: 0;
+  width: 98%;
 }
 
-#recent-scores-top {
-  justify-content: space-between;
-  align-items: center;
+.icon {
+  z-index: 1;
+  right: 31px;
+  top: 31px;
 }
 
-h1 {
-  margin-left: 2.5vw;
-  font-size: 2.5rem;
-  color: rgb(255, 136, 0);
-}
-
-h1,
-section {
+.submit {
   width: 30%;
-}
-
-h3 {
-  margin: 3vh 0;
-  color: rgb(255, 136, 0);
-}
-
-.style-btn {
-  padding: 5px;
-  box-shadow: 5px 5px rgb(122, 122, 122);
-  border: 1px solid rgb(122, 122, 122);
-  background-color: rgb(255, 136, 0);
-}
-
-#scores-list {
-  border: 3px solid rgb(255, 136, 0);
-}
-
-.list-element {
-  padding: 5px 2.5%;
-  font-size: 0.9rem;
-}
-
-#new-score-form {
-  display: flex;
-  flex-direction: column;
-}
-
-#new-score-form,
-input {
-  margin: 2% 0;
-  width: 80%;
-  padding: 1.5%;
-}
-
-input {
-  border: 3px solid rgb(255, 136, 0);
-  background-color: rgb(255, 136, 0);
-}
-
-input::placeholder {
-  color: black;
-}
-
-input:focus {
-  background-color: rgb(177, 177, 177);
-}
-
-#submit-btn {
-  width: 30%;
-}
-
-#submit-btn:hover,
-.clickable:hover {
-  cursor: pointer;
-  background-color: black;
-  color: rgb(255, 136, 0);
 }
