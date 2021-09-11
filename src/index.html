@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://bootswatch.com/5/litera/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <script defer="defer" src="main.js"></script>
+    <script defer="defer" src="index.js"></script>
   </head>
   <body class="m-3">
     <header>
@@ -24,36 +24,17 @@
       <section class="scores">
         <div class="scores-header d-flex justify-content-between">
           <h4>Recent Scores</h4>
-          <button type="button">Refresh</button>
+          <button id="refresh" type="button">Refresh</button>
         </div>
         <table class="table border border-dark my-2" id="scores-table">
-          <tr>
-            <th>
-            Name: 100
-          </th>
-          </tr>
-          <tr>
-            <th>
-            Name: 20
-          </th>
-          </tr>
-          <tr>
-            <th>
-            Name: 50
-          </th>
-          </tr>
-          <tr>
-            <th>
-            Name: 78
-          </th>
-          </tr>
+
         </table>
       </section>
       <section class="add-score d-flex flex-column">
         <h4>Add your score</h4>
         <input type="name" class="my-2" placeholder="Your name">
         <input type="number" class="my-2" placeholder="Your score">
-        <button type="submit" class="submit my-2 align-self-end">Submit</button>
+        <button type="submit" id="submit" class="submit my-2 align-self-end">Submit</button>
       </section>
 
     </div>
